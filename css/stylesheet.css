@@ -1,0 +1,296 @@
+html,body
+{
+	height:100%;
+
+}
+
+.common_div
+{
+	border:2px solid seagreen;
+	height:100%;
+	width:100%;
+}
+.qoute
+{
+	background-color:palegreen;
+}
+.text_qoute
+{
+	font-size: 175%;
+	position:relative;
+    margin-top: 26%;
+    margin-left: 35%;
+}
+
+.iphone_div
+{
+
+background-color: aliceblue;
+
+}
+
+.outer_rectangle
+{
+	border:1px solid black
+	height:50%;
+	width:17%;
+	border-radius: 3%;
+	position:relative;
+	margin-top: 40%;
+	margin-left: 40%;
+
+}
+
+.inner_rectangle
+{
+	border:1px solid yellow;
+	height:47%;
+	width:15.5%;
+	border-radius: 3%;
+	position:relative;
+	margin-top: -26.3%;
+	margin-left: 40.7%;
+
+}
+
+.screen
+{
+
+	border:1px solid green;
+	height:35%;
+	width:13%;
+	position:relative;
+	margin-top: -22%;
+	margin-left: 42%;
+
+}
+
+.speaker
+{
+
+border:1px solid blue;
+height:1%;
+width:3%;
+position:relative;
+margin-left: 48.7%;
+margin-top: -25%;
+
+}
+
+.smaller_circle
+{
+
+border:1px solid red;
+border-radius: 100%;
+width:0.5%;
+height:1%;
+position:relative;
+margin-left: 46%;
+margin-top: -0.7%;
+
+}
+
+.bigger_circle
+{
+
+border:1px solid red;
+border-radius: 100%;
+width:2%;
+height:4%;
+position:relative;
+margin-left: 47%;
+margin-top: 21%;
+
+}
+
+.form_button_div
+{
+	background-color: lavender;
+}
+
+.all_button
+{
+
+	background-color:lavender;
+	height:100%;
+	width:50%;
+	display:inline-block;
+
+}
+
+.button
+{
+	border:2px solid silver;
+	border-radius:6%;
+	height:6%;
+	width:22%;
+	background-color: teal;
+	display:inline-block;
+	position:relative;
+	margin-top: 15%;
+	margin-left: 1.5%;
+	font-size:190%;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	background-color:salmon;
+	color:white;
+	height:7%;
+	width:23%;
+	font-size:220%;
+	/*box-shadow:5px solid gray;*/
+
+}
+
+.form_div
+{
+	height:100%;
+	width:49.5%;
+	background-color: lavender;
+	display:inline-block;
+}
+
+.form
+{
+
+	height:70%;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 19.4%;
+	font-size: 150%;
+
+}
+
+.forminput
+{
+
+	box-shadow: 2px solid gray;
+	height:150%;
+	width:60%;
+	margin-top: 11.6%;
+	margin-left: 7%;
+
+}
+
+.squarebox
+{
+	border:2px solid yellow;
+	height:25%;
+	width:17%;
+	display:inline-block;
+	position: relative;
+	margin-top: 20%;
+	margin-left: 6%;
+	z-index:10;
+}
+
+.samesizebox
+{
+	border:2px solid blue;
+	height:86%;
+	width:100%;
+	position: absolute;
+	z-index:1;
+}
+
+input[type="checked"]
+{
+	background-color: red;
+}
+
+.image
+{
+	position: relative;
+}
+
+.image1
+{
+
+	border:2px solid blue;
+	height:22%;
+	width:14%;
+	position: relative;
+	margin-left: 25%;
+	margin-top: 15%;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+
+}
+
+.image2
+{
+	border:2px solid blue;
+	height:18%;
+	width:18%;
+	position: relative;
+	margin-left: -4%;
+	margin-top: 15%;
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+
+}
+
+.image3
+{
+	border:2px solid blue;
+	height:22%;
+	width:10%;
+	position: relative;
+	margin-left: -2%;
+	margin-top: 15%;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+
+}
+
+.image4
+{
+	border:2px solid blue;
+	height:15%;
+	width:12%;
+	position: relative;
+	margin-left: -2%;
+	margin-top: 10%;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+
+}
+
+.image1:hover
+{
+	height:25%;
+	width:15%;
+	z-index:1;
+	cursor: pointer;
+}
+
+.image2:hover
+{
+	height:25%;
+	width:15%;
+	z-index:1;
+	cursor: pointer;
+}
+
+.image3:hover
+{
+	height:25%;
+	width:15%;
+	z-index:1;
+	cursor: pointer;
+}
+
+.image4:hover
+{
+	height:25%;
+	width:15%;
+	z-index:1;
+	cursor: pointer;
+}
+
+.gallery
+{
+	background-color: darkseagreen;
+}
